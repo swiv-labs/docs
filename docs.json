@@ -5,8 +5,8 @@
   "description": "Documentation for Swiv — a private precision market protocol for numerical predictions.",
   "colors": {
     "primary": "#7a4deb",
-    "light": "#818CF8",
-    "dark": "#08080a"
+    "light": "#7a4deb",
+    "dark": "#7a4deb"
   },
   "favicon": "/icon.png",
   "icons": {
