@@ -11,11 +11,11 @@ Swiv is built on **Solana** and combines on-chain and private execution componen
   <Card title="Solana Program" icon="link">
     Handles pool lifecycle, staking, and payouts on-chain. All financial settlement is transparent and verifiable.
   </Card>
-  <Card title="Private Execution (TEE / MagicBlock)" icon="lock">
+  <Card title="Private Execution (MagicBlock's Private Ephemeral Rollups)" icon="lock">
     Processes predictions, updates, and reward calculations securely off-chain, preventing data leakage before settlement.
   </Card>
   <Card title="Oracle Integration" icon="satellite">
-    Integrates with oracles such as **Pyth** to source final outcome data at the exact pool deadline.
+    Integrates with **Pyth Oracle** to source final outcome data at the exact pool deadline.
   </Card>
   <Card title="Backend Services" icon="server">
     Coordinates resolution and submission of results, bridging private computation with on-chain settlement.
@@ -50,6 +50,6 @@ Swiv is built on **Solana** and combines on-chain and private execution componen
 | Property | Mechanism |
 |---|---|
 | **Transparency** | On-chain settlement via Solana |
-| **Privacy** | Off-chain computation via TEE / MagicBlock |
-| **Trustless outcomes** | Oracle-sourced final values (e.g., Pyth) |
+| **Privacy** | Off-chain computation via MagicBlock TEE |
+| **Trustless outcomes** | Pyth Oracle-sourced final values |
 | **Liveness** | Automated backend resolution |
