@@ -13,10 +13,10 @@
     "library": "lucide"
   },
   "styling": {
-    "eyebrows": "section"
+    "eyebrows": "breadcrumbs"
   },
   "contextual": {
-    "options": ["copy", "view", "assistant"]
+    "options": ["copy", "view", "assistant", "chatgpt", "claude", "perplexity", "grok", "aistudio", "devin", "windsurf", "mcp", "add-mcp", "cursor", "vscode", "devin-mcp"]
   },
   "navigation": {
     "global": {
@@ -76,7 +76,11 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/swivxyz"
+      "x": "https://x.com/SwivOfficial",
+      "discord": "https://discord.com/invite/bSTQFNNg7w",
+      "telegram": "https://twitter.com/SwivOfficial",
+      "github": "https://github.com/swiv-labs",
+      "website": "https://twitter.com/SwivOfficial"
     }
   }
 }
