@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "sequoia",
   "name": "Swiv Docs",
   "description": "Documentation for Swiv — a private precision market protocol for numerical predictions.",
   "colors": {
@@ -8,12 +8,12 @@
     "light": "#818CF8",
     "dark": "#08080a"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "/icon.png",
   "icons": {
     "library": "lucide"
   },
   "styling": {
-    "eyebrows": "breadcrumbs"
+    "eyebrows": "section"
   },
   "contextual": {
     "options": ["copy", "view", "assistant"]
