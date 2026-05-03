@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
-  "name": "Product Guide",
-  "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
+  "name": "Swiv Docs",
+  "description": "Documentation for Swiv — a private precision market protocol for numerical predictions.",
   "colors": {
-    "primary": "#166E3F",
-    "light": "#26BD6C",
-    "dark": "#166E3F"
+    "primary": "#6366F1",
+    "light": "#818CF8",
+    "dark": "#4F46E5"
   },
   "favicon": "/favicon.ico",
   "icons": {
@@ -16,132 +16,47 @@
     "eyebrows": "breadcrumbs"
   },
   "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+    "options": ["copy", "view", "assistant"]
   },
   "navigation": {
     "global": {
       "anchors": [
         {
-          "anchor": "Home",
-          "icon": "house",
-          "href": "/"
+          "anchor": "Website",
+          "icon": "globe",
+          "href": "https://swiv.xyz"
         },
         {
-          "anchor": "Changelog",
-          "icon": "scroll-text",
-          "href": "https://www.mintlify.com/docs/changelog"
-        },
-        {
-          "anchor": "Help",
+          "anchor": "Support",
           "icon": "life-buoy",
-          "href": "https://www.mintlify.com/docs/contact-support"
+          "href": "mailto:support@swiv.xyz"
         }
       ]
     },
-    "directory": "card",
-    "products": [
+    "tabs": [
       {
-        "product": "Platform",
-        "description": "Core platform setup, configuration, and administration.",
-        "icon": "layers",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
-            "expanded": true,
-            "root": "platform/index",
-            "pages": [
-              "platform/quickstart",
-              "platform/key-concepts"
-            ]
+            "group": "Overview",
+            "pages": ["index"]
           },
           {
-            "group": "Configuration",
-            "expanded": true,
-            "root": "platform/configuration/index",
-            "pages": [
-              "platform/configuration/settings",
-              "platform/configuration/user-management"
-            ]
+            "group": "How It Works",
+            "pages": ["trading", "mechanics", "btc-hourly", "privacy"]
           },
           {
-            "group": "Administration",
-            "expanded": true,
-            "root": "platform/administration/index",
-            "pages": [
-              "platform/administration/roles-permissions",
-              "platform/administration/audit-logs"
-            ]
+            "group": "Resources",
+            "pages": ["faq", "technical", "risks"]
           }
         ]
       },
       {
-        "product": "Analytics",
-        "description": "Build dashboards, run reports, and analyze your data.",
-        "icon": "chart-bar",
+        "tab": "Legal",
         "groups": [
           {
-            "group": "Getting started",
-            "expanded": true,
-            "root": "analytics/index",
-            "pages": [
-              "analytics/quickstart",
-              "analytics/connect-data"
-            ]
-          },
-          {
-            "group": "Dashboards",
-            "expanded": true,
-            "root": "analytics/dashboards/index",
-            "pages": [
-              "analytics/dashboards/create-dashboard",
-              "analytics/dashboards/charts-visualizations",
-              "analytics/dashboards/sharing-exports"
-            ]
-          },
-          {
-            "group": "Reports",
-            "expanded": true,
-            "root": "analytics/reports/index",
-            "pages": [
-              "analytics/reports/build-report",
-              "analytics/reports/scheduled-reports"
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Integrations",
-        "description": "Connect your tools with pre-built connectors and webhooks.",
-        "icon": "plug",
-        "groups": [
-          {
-            "group": "Getting started",
-            "expanded": true,
-            "root": "integrations/index",
-            "pages": [
-              "integrations/quickstart",
-              "integrations/authentication"
-            ]
-          },
-          {
-            "group": "Connectors",
-            "expanded": true,
-            "root": "integrations/connectors/index",
-            "pages": [
-              "integrations/connectors/crm",
-              "integrations/connectors/data-warehouse",
-              "integrations/connectors/messaging"
-            ]
-          },
-          {
-            "group": "Webhooks & events",
-            "expanded": true,
-            "root": "integrations/webhooks/index",
-            "pages": [
-              "integrations/webhooks/configure",
-              "integrations/webhooks/event-types",
-              "integrations/webhooks/retry-policies"
-            ]
+            "group": "Legal",
+            "pages": ["legal/terms", "legal/privacy-policy"]
           }
         ]
       }
@@ -155,14 +70,13 @@
     "links": [],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Launch App",
+      "href": "https://app.swiv.xyz"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
+      "x": "https://x.com/swivxyz"
     }
   }
 }
