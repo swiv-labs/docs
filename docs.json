@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "almond",
   "name": "Swiv Docs",
   "description": "Documentation for Swiv — a private precision market protocol for numerical predictions.",
   "colors": {
-    "primary": "#6366F1",
+    "primary": "#7a4deb",
     "light": "#818CF8",
-    "dark": "#4F46E5"
+    "dark": "#08080a"
   },
   "favicon": "/favicon.ico",
   "icons": {
@@ -63,8 +63,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/dark.png",
+    "dark": "/logo/light.png"
   },
   "navbar": {
     "links": [],
